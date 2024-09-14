@@ -1,0 +1,62 @@
+1 goodit: 95 time: 7447.33s for 100 iterations
+1 goodit: 384 time: 28930s for 400 iterations
+2 goodit: 500 time: 8963.31s for 500 iterations, avg: 2543.02
+4 goodit: 500 time: 16788.7s for 500 iterations, avg: 3167.83
+5 goodit: 10 time: 35001.3s for 10 iterations, avg: 30785.5
+1 goodit: 100 time: 7520.83s for 100 iterations, avg: 2306.08
+4 goodit: 100 time: 3697.65s for 100 iterations, avg: 3159.77
+1 goodit: 100 time: 7393.17s for 100 iterations, avg: 2309.31
+7 goodit: 100 time: 9309.91s for 100 iterations, avg: 2832.07
+9 goodit: 10 time: 21494.2s for 10 iterations, avg: 30066.8
+4 goodit: 100 time: 3400.82s for 100 iterations, avg: 3146.99
+7 goodit: 100 time: 9996.04s for 100 iterations, avg: 2847.49
+9 goodit: 10 time: 50375.4s for 10 iterations, avg: 29409.6
+8 goodit: 100 time: 3735.57s for 100 iterations, avg: 3146.23
+8 goodit: 400 time: 13455.4s for 400 iterations, avg: 3162.49
+9 goodit: 10 time: 29221.4s for 10 iterations, avg: 30389.4
+11 goodit: 100 time: 3436.6s for 100 iterations, avg: 2933.48
+12 goodit: 100 time: 5396.79s for 100 iterations, avg: 2666.87
+1 goodit: 400 time: 28992s for 400 iterations, avg: 2308.68
+13 goodit: 100 time: 5929.71s for 100 iterations, avg: 3710.46
+10 goodit: 100 time: 33811.6s for 100 iterations, avg: 3309.38
+14 goodit: 100 time: 10054.7s for 100 iterations, avg: 3115.36
+15 goodit: 100 time: 8234.5s for 100 iterations, avg: 4764.61
+16 goodit: 100 time: 10875.3s for 100 iterations, avg: 3281.28
+12 goodit: 100 time: 5482.59s for 100 iterations, avg: 2660.83
+19 goodit: 100 time: 3383.06s for 100 iterations, avg: 2835.64
+19 goodit: 400 time: 14429.7s for 400 iterations, avg: 2839.8
+11 goodit: 400 time: 14441.9s for 400 iterations, avg: 2947.31
+12 goodit: 400 time: 23522.7s for 400 iterations, avg: 2669.89
+20 goodit: 500 time: 19560.3s for 500 iterations, avg: 3034.77
+15 goodit: 400 time: 35714s for 400 iterations, avg: 4740.1
+21 goodit: 500 time: 23955.5s for 500 iterations, avg: 3036.6
+18 goodit: 500 time: 26189.7s for 500 iterations, avg: 3085.01
+22 goodit: 500 time: 31191.8s for 500 iterations, avg: 3097.91
+23 goodit: 500 time: 36410.2s for 500 iterations, avg: 3093.19
+24 goodit: 300 T: 24516s for 300 iters, avg: 3391.82
+25 goodit: 500 T: 43380.7s for 500 iters, avg: 3478.47
+26 goodit: 500 T: 61263.8s for 500 iters, avg: 3143.51
+28 goodit: 500 T: 37191.8s for 500 iters, avg: 3125.35
+27 goodit: 500 T: 50572.6s for 500 iters, avg: 3560.3
+29 goodit: 500 T: 23234.5s for 500 iters, avg: 3944.07
+30 goodit: 500 T: 23879.1s for 500 iters, avg: 3830.87
+31 goodit: 500 T: 31889.6s for 500 iters, avg: 3620.5
+33 goodit: 500 T: 25490.3s for 500 iters, avg: 4052.15
+32 goodit: 100 T: 32211.6s for 100 iters, avg: 3316.46
+34 goodit: 500 T: 25341.8s for 500 iters, avg: 4116.51
+32 goodit: 100 T: 29249.5s for 100 iters, avg: 3316.48
+35 goodit: 500 T: 34458s for 500 iters, avg: 4101.7
+37 goodit: 100 T: 8173.91s for 100 iters, avg: 4084.63 vars: 1260 machineNodes: 11856
+36 goodit: 500 T: 37060.3s for 500 iters, avg: 4138.44 vars: 1260 machineNodes: 10656
+32 goodit: 100 T: 33828.2s for 100 iters, avg: 3318.52 vars: 1260 machineNodes: 4048
+37 goodit: 400 T: 30128.2s for 400 iters, avg: 4144.1 vars: 1260 machineNodes: 11856
+38 goodit: 500 T: 43118.5s for 500 iters, avg: 3544.75 vars: 1357 machineNodes: 7310
+40 goodit: 500 T: 43670.4s for 500 iters, avg: 4138.04 vars: 1260 machineNodes: 13120
+39 goodit: 500 T: 53833.7s for 500 iters, avg: 3575.99 vars: 1357 machineNodes: 9082
+41 goodit: 500 T: 53055.9s for 500 iters, avg: 4151.73 vars: 1260 machineNodes: 15840
+42 goodit: 100 T: 26295.3s for 100 iters, avg: 5153.38 vars: 2108 machineNodes: 7440
+42 goodit: 100 T: 28816.7s for 100 iters, avg: 5161.88 vars: 2108 machineNodes: 7440
+42 goodit: 100 T: 24020.1s for 100 iters, avg: 5188.73 vars: 2108 machineNodes: 7440
+42 goodit: 100 T: 28053.4s for 100 iters, avg: 5177.64 vars: 2108 machineNodes: 7440
+42 goodit: 100 T: 24391.5s for 100 iters, avg: 5181.61 vars: 2108 machineNodes: 7440
+42 goodit: 100 T: 24889.3s for 100 iters, avg: 5169.62 vars: 2108 machineNodes: 7440

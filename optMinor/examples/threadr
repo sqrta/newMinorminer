@@ -1,0 +1,15 @@
+0 goodit: 500 time: 6022.92s for 500 iterations, avg: 1316.41 thres: 5 vars: 240 machineNodes: 1680
+1 goodit: 500 time: 7655.99s for 500 iterations, avg: 1360.75 thres: 5 vars: 240 machineNodes: 1680
+2 goodit: 500 time: 8363.1s for 500 iterations, avg: 1327.38 thres: 5 vars: 240 machineNodes: 1680
+3 goodit: 500 time: 8113.61s for 500 iterations, avg: 1368.05 thres: 5 vars: 240 machineNodes: 1680
+4 goodit: 500 time: 6897.86s for 500 iterations, avg: 1316.46 thres: 5 vars: 240 machineNodes: 1680
+5 goodit: 500 time: 8580.63s for 500 iterations, avg: 1300.46 thres: 5 vars: 160 machineNodes: 1680
+6 goodit: 500 time: 3452.04s for 500 iterations, avg: 1274.84 thres: 5 vars: 160 machineNodes: 1680
+7 goodit: 500 time: 17689.7s for 500 iterations, avg: 1455.21 thres: 5 vars: 180 machineNodes: 1680
+8 goodit: 499 time: 19097.5s for 499 iterations, avg: 1418.55 thres: 5 vars: 180 machineNodes: 1680
+7 goodit: 500 time: 17387.1s for 500 iterations, avg: 1457.31 thres: 5 vars: 180 machineNodes: 1680
+5 goodit: 500 time: 3873.58s for 500 iterations, avg: 1300.32 thres: 5 vars: 160 machineNodes: 1680
+9 goodit: 500 time: 12891.9s for 500 iterations, avg: 1419.16 thres: 5 vars: 180 machineNodes: 1680
+10 goodit: 500 time: 6127.69s for 500 iterations, avg: 1338.05 thres: 5 vars: 144 machineNodes: 1680
+11 goodit: 500 time: 27843.8s for 500 iterations, avg: 1401.44 thres: 5 vars: 144 machineNodes: 1680
+12 goodit: 500 time: 16702.4s for 500 iterations, avg: 1393.59 thres: 5 vars: 144 machineNodes: 1680
