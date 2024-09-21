@@ -23,3 +23,4 @@
 18 goodit: 350 time: 27277.9s for 350 iterations, avg: 1387.09 vars: 360 machineNodes: 1680
 19 goodit: 400 time: 27767.6s for 400 iterations, avg: 1406.04 vars: 260 machineNodes: 1680
 20 goodit: 350 time: 17549s for 350 iterations, avg: 1404.54 vars: 260 machineNodes: 1680
+21 goodit: 350 time: 58398.8s for 350 iterations, avg: 1454.64 vars: 260 machineNodes: 1680

@@ -186,3 +186,7 @@ venv.bak/
 #because I keep doing tests in the repo root directory...
 /*.png
 /callgrind.out.*
+baseMinor/examples/example_*
+optMinor/examples/example_*
+baseMinor/examples/data_*
+optMinor/examples/data_*
