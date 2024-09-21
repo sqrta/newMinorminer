@@ -13,7 +13,7 @@
 //    limitations under the License.
 
 #include <iostream>
-#include "data_r_13.cpp"
+#include "data_r_21.cpp"
 
 #include <fstream>
 
@@ -51,16 +51,18 @@ int main(int argc, char *argv[]) {
     params.localInteractionPtr.reset(new MyCppInteractions());
     params.timeout=3500;
     params.tries=10;
+    int thres = atoi(argv[1]);
+    params.thres=thres;
     uint32_t x = time(NULL);
     params.rng.seed(x);
     int good_it = 0;
     int minCount = 999999;
-    int max_it =atoi(argv[1]);
-    string threadID(argv[2]);
-    string dataID(argv[3]);
+    int max_it =atoi(argv[2]);
+    string threadID(argv[3]);
+    string dataID(argv[4]);
+    vector<double> wrongDatas;
     double total = 0;
     double avg;
-    vector<double> wrongDatas;
     ofstream file;
     cout << "threadId " << threadID << ", DataID " << dataID <<", timeout: " << params.timeout << " vars: " << triangle.num_nodes() << " machineNodes: "<< square.num_nodes() <<endl;
     for (int i = 0; i < max_it; i++)
@@ -80,7 +82,7 @@ int main(int argc, char *argv[]) {
     }
     auto local_end = clockt::now();
     double duration = static_cast<double>(duration_cast<microseconds>(local_end - local_start).count()) / 1e6;
-    if (duration>1500) wrongDatas.push_back(duration);
+    if (duration>1000) wrongDatas.push_back(duration);
     if (res) {
         
         for (int u=0; u < chains.size(); u++) {
@@ -109,15 +111,14 @@ int main(int argc, char *argv[]) {
 
    }
    auto end = clockt::now();
-    double duration = static_cast<double>(duration_cast<microseconds>(end - start).count())/1e6;
+    double duration = static_cast<double>(duration_cast<microseconds>(end - start).count()) / 1e6;
     for (auto u : wrongDatas){
         duration -= u;
         max_it -= 1;
     }
-    
     printf("%d iterations use %fs\n", max_it,duration);
     printf("minCount: %d\n", minCount);
     file.open("thread"+threadID, std::ios_base::app);
-    file << dataID << " goodit: " << good_it << " time: " << duration << "s for " << max_it << " iterations, avg: " << avg << " vars: " << triangle.num_nodes() << " machineNodes: "<< square.num_nodes() <<endl;
+    file << dataID << " goodit: " << good_it << " time: " << duration << "s for " << max_it << " iterations, avg: " << avg <<" thres: " << thres << " vars: " << triangle.num_nodes() << " machineNodes: "<< square.num_nodes() <<endl;
     return 0;
 }

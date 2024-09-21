@@ -31,8 +31,8 @@ bound = [0, 100]
 maxTry = 100
 while maxTry > 0:
     # T = nx.erdos_renyi_graph(40, 0.16)
-    T = nx.random_regular_graph(8,36)
-    # T = nx.barabasi_albert_graph(30,8)
+    T = nx.random_regular_graph(4, 65)
+    # T = nx.barabasi_albert_graph(75,2)
     degree = 0
     for n in T.nodes():
         degree += k*k*T.degree(n)+2 *k -2

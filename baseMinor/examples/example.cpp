@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
     }
     auto local_end = clockt::now();
     double duration = static_cast<double>(duration_cast<microseconds>(local_end - local_start).count()) / 1e6;
-    if (duration>1500) wrongDatas.push_back(duration);
+    if (duration>1000) wrongDatas.push_back(duration);
     if (res) {
         
         for (int u=0; u < chains.size(); u++) {

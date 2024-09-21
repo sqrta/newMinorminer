@@ -13,3 +13,13 @@
 10 goodit: 380 time: 5183.97s for 380 iterations, avg: 1361.49 vars: 144 machineNodes: 1680
 11 goodit: 380 time: 21392.2s for 380 iterations, avg: 1417.87 vars: 144 machineNodes: 1680
 12 goodit: 420 time: 15288.7s for 420 iterations, avg: 1409.74 vars: 144 machineNodes: 1680
+13 goodit: 420 time: 24339.4s for 420 iterations, avg: 1407.57 vars: 144 machineNodes: 1680
+14 goodit: 420 time: 20641.8s for 420 iterations, avg: 1339.04 vars: 120 machineNodes: 1680
+15 goodit: 420 time: 25201.9s for 420 iterations, avg: 1325.02 vars: 120 machineNodes: 1680
+16 goodit: 420 time: 19653.8s for 420 iterations, avg: 1343.42 vars: 120 machineNodes: 1680
+16 goodit: 420 time: 6250.58s for 420 iterations, avg: 1198.18 vars: 100 machineNodes: 1680
+16 goodit: 420 time: 102801s for 420 iterations, avg: 1415.9 vars: 360 machineNodes: 1680
+17 goodit: 380 time: 36105s for 380 iterations, avg: 1402.04 vars: 360 machineNodes: 1680
+18 goodit: 350 time: 27277.9s for 350 iterations, avg: 1387.09 vars: 360 machineNodes: 1680
+19 goodit: 400 time: 27767.6s for 400 iterations, avg: 1406.04 vars: 260 machineNodes: 1680
+20 goodit: 350 time: 17549s for 350 iterations, avg: 1404.54 vars: 260 machineNodes: 1680
