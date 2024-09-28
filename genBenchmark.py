@@ -27,11 +27,11 @@ G = dnx.zephyr_graph(m,t=t)
 # Generate a QP instance graph T with the avg degree inside the bound
 # T has n*k nodes
 
-bound = [0, 100]
+bound = [36, 40]
 maxTry = 100
 while maxTry > 0:
-    # T = nx.erdos_renyi_graph(40, 0.16)
-    T = nx.random_regular_graph(4, 65)
+    T = nx.erdos_renyi_graph(30, 0.3)
+    # T = nx.random_regular_graph(5, 50)
     # T = nx.barabasi_albert_graph(75,2)
     degree = 0
     for n in T.nodes():
@@ -125,13 +125,17 @@ if __name__ == '__main__':
     totalRun = 1
     good_it = 0
     totalCount = 0
-    for i in range(totalRun):
+    maxRun = 5
+    for i in range(maxRun):
         embed = find_embedding(H, G.edges(),timeout=5000, chainlength_patience=2)
         res = False if len(embed)==0 else True
         count = getCount(embed)
         if res:
             good_it += 1
             totalCount += count
-        print(f'it: {i}, good_it: {good_it}, count: {count}, avg: {totalCount / good_it}')
+            print(f'it: {i}, good_it: {good_it}, count: {count}, avg: {totalCount / good_it}')
+            break
+    if good_it==0:
+        print('No embedding found')    
     end = time.time()
     print(f"use {end-start}s")

@@ -141,6 +141,7 @@ class optional_parameters {
     bool return_overlap = false;
     int chainlength_patience = 2;
     int threads = 1;
+    int initThresFlag = 1;
     int thres=5;
     bool skip_initialization = false;
     map<int, vector<int>> fixed_chains;

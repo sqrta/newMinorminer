@@ -120,7 +120,7 @@ class pathfinder_base : public pathfinder_public_interface {
               flag(0),
               parents(num_vars + num_fixed, vector<int>(num_qubits + num_reserved, 0)),
               total_distance(num_qubits, 0),
-              thres(num_vars, 3*p_.thres),
+              thres(num_vars, p_.thres*3),
               min_list(num_qubits, 0),
               qubit_weight(num_qubits, 0),
               tmp_stats(),
@@ -268,6 +268,7 @@ class pathfinder_base : public pathfinder_public_interface {
         // for (auto u : order) printf("%d, ", u);
         // printf("\n");
         // printf("push pass\n");
+        if (params.initThresFlag) order = degreeOrder;
         for (auto &u : order) {
             if (pushback < num_vars) {
                 ep.debug("finding a new chain for %d (pushdown)\n", u);
@@ -724,10 +725,13 @@ class pathfinder_base : public pathfinder_public_interface {
                 }
             }
         }
-        for (size_t i = 0; i < thres.size(); i++)
-        {
-            thres[i] = thres[i]/3;
+        if (true){
+            for (size_t i = 0; i < thres.size(); i++)
+            {
+                thres[i] = thres[i]/3;
+            }            
         }
+
         
         // for (size_t i = 0; i < ep.num_vars(); i++)
         // {

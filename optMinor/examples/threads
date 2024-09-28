@@ -44,3 +44,4 @@
 42 goodit: 100 time: 19607.9s for 100 iterations, avg: 4848.56 thres: 10 vars: 2108 machineNodes: 7440
 42 goodit: 100 time: 17882.9s for 100 iterations, avg: 4841.98 thres: 10 vars: 2108 machineNodes: 7440
 42 goodit: 200 time: 36396s for 200 iterations, avg: 4852.79 thres: 10 vars: 2108 machineNodes: 7440
+43 goodit: 500 time: 7586.93s for 499 iterations, avg: 2415.03 thres: 5 vars: 980 machineNodes: 3360

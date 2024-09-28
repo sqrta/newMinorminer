@@ -53,6 +53,7 @@ int main(int argc, char *argv[]) {
     params.tries=10;
     int thres = atoi(argv[1]);
     params.thres=thres;
+    params.initThresFlag=0;
     uint32_t x = time(NULL);
     params.rng.seed(x);
     int good_it = 0;

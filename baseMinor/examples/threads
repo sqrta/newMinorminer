@@ -60,3 +60,4 @@
 42 goodit: 100 T: 28053.4s for 100 iters, avg: 5177.64 vars: 2108 machineNodes: 7440
 42 goodit: 100 T: 24391.5s for 100 iters, avg: 5181.61 vars: 2108 machineNodes: 7440
 42 goodit: 100 T: 24889.3s for 100 iters, avg: 5169.62 vars: 2108 machineNodes: 7440
+43 goodit: 350 time: 8672.69s for 349 iterations, avg: 2541.23 vars: 980 machineNodes: 3360
